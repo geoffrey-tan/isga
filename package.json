@@ -1,0 +1,27 @@
+{
+    "name": "isga",
+    "private": true,
+    "version": "1.0.0",
+    "description": "ISGA",
+    "main": "public/index.html",
+    "scripts": {
+        "start": "serve public",
+        "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+        "postinstall": "npm run update:package-lock && npm audit fix",
+        "update": "ncu --upgrade --target minor && npm i",
+        "update:check": "ncu",
+        "update:package-lock": "npm i --package-lock-only"
+    },
+    "homepage": "https://isga.geoffreytan.dev/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Geoffle/isga"
+    },
+    "author": "Geoffrey Tan",
+    "license": "MIT",
+    "devDependencies": {
+        "npm-check-updates": "^9.0.4",
+        "prettier": "^2.1.2",
+        "serve": "^11.3.2"
+    }
+}

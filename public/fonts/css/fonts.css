@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'minion-pro';
+    src: url('../font-files/minionpro-regular/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/minionpro-regular/MinionPro-Regular.otf') format('opentype'), url('../font-files/minionpro-regular/MinionPro-Regular.woff') format('woff'),
+        url('../font-files/minionpro-regular/MinionPro-Regular.ttf') format('truetype'),
+        url('../font-files/minionpro-regular/MinionPro-Regular.svg#MinionPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('../font-files/digital-7/digital-7-webfont.eot');
+    src: url('../font-files/digital-7/digital-7-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/digital-7/digital-7-webfont.woff2') format('woff2'),
+        url('../font-files/digital-7/digital-7-webfont.woff') format('woff'), url('../font-files/digital-7/digital-7-webfont.ttf') format('truetype'),
+        url('../font-files/digital-7/digital-7-webfont.svg#digital-7regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala';
+    src: url('../font-files/scala/scala-webfont.eot');
+    src: url('../font-files/scala/scala-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/scala/scala-webfont.woff2') format('woff2'),
+        url('../font-files/scala/scala-webfont.woff') format('woff'), url('../font-files/scala/scala-webfont.ttf') format('truetype'),
+        url('../font-files/scala/scala-webfont.svg#scalaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-bold';
+    src: url('../font-files/scala-bold/scala-bold-webfont.eot');
+    src: url('../font-files/scala-bold/scala-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/scala-bold/scala-bold-webfont.woff2') format('woff2'),
+        url('../font-files/scala-bold/scala-bold-webfont.woff') format('woff'), url('../font-files/scala-bold/scala-bold-webfont.ttf') format('truetype'),
+        url('../font-files/scala-bold/scala-bold-webfont.svg#scalabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-italic';
+    src: url('../font-files/scala-italic/scala-italic-webfont.eot');
+    src: url('../font-files/scala-italic/scala-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/scala-italic/scala-italic-webfont.woff2') format('woff2'),
+        url('../font-files/scala-italic/scala-italic-webfont.woff') format('woff'), url('../font-files/scala-italic/scala-italic-webfont.ttf') format('truetype'),
+        url('../font-files/scala-italic/scala-italic-webfont.svg#scalaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-caps';
+    src: url('../font-files/scala-caps/scalacaps-webfont.eot');
+    src: url('../font-files/scala-caps/scalacaps-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/scala-caps/scalacaps-webfont.woff2') format('woff2'),
+        url('../font-files/scala-caps/scalacaps-webfont.woff') format('woff'), url('../font-files/scala-caps/scalacaps-webfont.ttf') format('truetype'),
+        url('../font-files/scala-caps/scalacaps-webfont.svg#scala_capsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-caps-bold';
+    src: url('../font-files/scala-caps-bold/scalacaps-bold-webfont.eot');
+    src: url('../font-files/scala-caps-bold/scalacaps-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/scala-caps-bold/scalacaps-bold-webfont.woff2') format('woff2'), url('../font-files/scala-caps-bold/scalacaps-bold-webfont.woff') format('woff'),
+        url('../font-files/scala-caps-bold/scalacaps-bold-webfont.ttf') format('truetype'),
+        url('../font-files/scala-caps-bold/scalacaps-bold-webfont.svg#scala_capsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-sans';
+    src: url('../font-files/scala-sans/scalasans-webfont.eot');
+    src: url('../font-files/scala-sans/scalasans-webfont.eot?#iefix') format('embedded-opentype'), url('../font-files/scala-sans/scalasans-webfont.woff2') format('woff2'),
+        url('../font-files/scala-sans/scalasans-webfont.woff') format('woff'), url('../font-files/scala-sans/scalasans-webfont.ttf') format('truetype'),
+        url('../font-files/scala-sans/scalasans-webfont.svg#scalasansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-sans-bold';
+    src: url('../font-files/scala-sans-bold/scalasans-bold-webfont.eot');
+    src: url('../font-files/scala-sans-bold/scalasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/scala-sans-bold/scalasans-bold-webfont.woff2') format('woff2'), url('../font-files/scala-sans-bold/scalasans-bold-webfont.woff') format('woff'),
+        url('../font-files/scala-sans-bold/scalasans-bold-webfont.ttf') format('truetype'),
+        url('../font-files/scala-sans-bold/scalasans-bold-webfont.svg#scalasansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-sans-caps';
+    src: url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.eot');
+    src: url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.woff2') format('woff2'), url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.woff') format('woff'),
+        url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.ttf') format('truetype'),
+        url('../font-files/scala-sans-caps/scalasans-regularsc-webfont.svg#scala_sans_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-sans-caps-bold';
+    src: url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.eot');
+    src: url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.woff2') format('woff2'),
+        url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.woff') format('woff'),
+        url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.ttf') format('truetype'),
+        url('../font-files/scala-sans-caps-bold/scalasans-boldsc-webfont.svg#scala_sans_scbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'scala-sans-caps-italic';
+    src: url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.eot');
+    src: url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.woff2') format('woff2'),
+        url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.woff') format('woff'),
+        url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.ttf') format('truetype'),
+        url('../font-files/scala-sans-caps-italic/scalasans-regularscitalic-webfont.svg#scala_sans_scregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
