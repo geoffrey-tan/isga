@@ -55,8 +55,8 @@ function initMap(initialLocation) {
     var myMapLocations = [
         ['Dam', 52.373611, 4.891398, 'Dam'],
         ['Central Station', 52.3791, 4.9003, 'Central Station'],
-        ['Anne Frank House', 52.3752, 4.8840, 'Anne Frank House']
-    ]
+        ['Anne Frank House', 52.3752, 4.884, 'Anne Frank House'],
+    ];
 
     for (i = 0; i < myMapLocations.length; i++) {
         // voor elke marker de volgende stappen
