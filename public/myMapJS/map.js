@@ -52,6 +52,12 @@ function initMap(initialLocation) {
     var map = new google.maps.Map(document.getElementById('myMap'), mapOptions);
 
     // de locaties toevoegen - de info staat in myMapData.js
+    var myMapLocations = [
+        ['Dam', 52.373611, 4.891398, 'Dam'],
+        ['Central Station', 52.3791, 4.9003, 'Central Station'],
+        ['Anne Frank House', 52.3752, 4.8840, 'Anne Frank House']
+    ]
+
     for (i = 0; i < myMapLocations.length; i++) {
         // voor elke marker de volgende stappen
 
@@ -100,18 +106,18 @@ function initMap(initialLocation) {
     map.fitBounds(bounds);
 
     // indien voor GPS gekozen is proberen om de huidige locatie het center van de map te maken
-    var myMapStartLocationUpper = myMapStartLocation.toUpperCase();
-    if (navigator.geolocation && myMapStartLocationUpper == 'GPS') {
-        navigator.geolocation.getCurrentPosition(
-            function (position) {
-                var newLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-                map.panTo(newLocation);
-            },
-            function () {
-                // GPS bepalen mislukt
-            }
-        );
-    } else {
-        // Browser ondersteunt geen Geolocation
-    }
+    // var myMapStartLocationUpper = myMapStartLocation.toUpperCase();
+    // if (navigator.geolocation && myMapStartLocationUpper == 'GPS') {
+    //     navigator.geolocation.getCurrentPosition(
+    //         function (position) {
+    //             var newLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    //             map.panTo(newLocation);
+    //         },
+    //         function () {
+    //             // GPS bepalen mislukt
+    //         }
+    //     );
+    // } else {
+    //     // Browser ondersteunt geen Geolocation
+    // }
 }
