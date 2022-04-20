@@ -13,6 +13,10 @@ npm start       # serve the application
 
 The address will be copied to the clipboard and can be pasted in your browser, by default the location is at: [http://localhost:5000](http://localhost:5000)
 
+## Hosting
+
+firebase deploy --only hosting:isga-geoffreytan-dev
+
 ### License
 
 [MIT license](./LICENSE)
